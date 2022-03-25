@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F16FE74427E289A00032970C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16FE74327E289A00032970C /* AppDelegate.swift */; };
+		F16FE74627E289A00032970C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16FE74527E289A00032970C /* SceneDelegate.swift */; };
+		F16FE74827E289A00032970C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16FE74727E289A00032970C /* ViewController.swift */; };
+		F16FE74B27E289A00032970C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16FE74927E289A00032970C /* Main.storyboard */; };
+		F16FE74D27E289A10032970C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16FE74C27E289A10032970C /* Assets.xcassets */; };
+		F16FE75027E289A10032970C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16FE74E27E289A10032970C /* LaunchScreen.storyboard */; };
+		F16FE75B27E289A10032970C /* TelaDeLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16FE75A27E289A10032970C /* TelaDeLoginTests.swift */; };
+		F16FE76527E289A10032970C /* TelaDeLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16FE76427E289A10032970C /* TelaDeLoginUITests.swift */; };
+		F16FE76727E289A10032970C /* TelaDeLoginUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16FE76627E289A10032970C /* TelaDeLoginUITestsLaunchTests.swift */; };
+		F16FE77427E28C280032970C /* logo-brq.png in Resources */ = {isa = PBXBuildFile; fileRef = F16FE77327E28C280032970C /* logo-brq.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F16FE75727E289A10032970C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F16FE73827E289A00032970C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F16FE73F27E289A00032970C;
+			remoteInfo = TelaDeLogin;
+		};
+		F16FE76127E289A10032970C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F16FE73827E289A00032970C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F16FE73F27E289A00032970C;
+			remoteInfo = TelaDeLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F16FE74027E289A00032970C /* TelaDeLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelaDeLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16FE74327E289A00032970C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F16FE74527E289A00032970C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F16FE74727E289A00032970C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F16FE74A27E289A00032970C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F16FE74C27E289A10032970C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F16FE74F27E289A10032970C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F16FE75127E289A10032970C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F16FE75627E289A10032970C /* TelaDeLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelaDeLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16FE75A27E289A10032970C /* TelaDeLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaDeLoginTests.swift; sourceTree = "<group>"; };
+		F16FE76027E289A10032970C /* TelaDeLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelaDeLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16FE76427E289A10032970C /* TelaDeLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaDeLoginUITests.swift; sourceTree = "<group>"; };
+		F16FE76627E289A10032970C /* TelaDeLoginUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaDeLoginUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F16FE77327E28C280032970C /* logo-brq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-brq.png"; path = "../../../Imagens/logo-brq.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F16FE73D27E289A00032970C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16FE75327E289A10032970C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16FE75D27E289A10032970C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F16FE73727E289A00032970C = {
+			isa = PBXGroup;
+			children = (
+				F16FE74227E289A00032970C /* TelaDeLogin */,
+				F16FE75927E289A10032970C /* TelaDeLoginTests */,
+				F16FE76327E289A10032970C /* TelaDeLoginUITests */,
+				F16FE74127E289A00032970C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F16FE74127E289A00032970C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F16FE74027E289A00032970C /* TelaDeLogin.app */,
+				F16FE75627E289A10032970C /* TelaDeLoginTests.xctest */,
+				F16FE76027E289A10032970C /* TelaDeLoginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F16FE74227E289A00032970C /* TelaDeLogin */ = {
+			isa = PBXGroup;
+			children = (
+				F16FE74327E289A00032970C /* AppDelegate.swift */,
+				F16FE74527E289A00032970C /* SceneDelegate.swift */,
+				F16FE74727E289A00032970C /* ViewController.swift */,
+				F16FE74927E289A00032970C /* Main.storyboard */,
+				F16FE74C27E289A10032970C /* Assets.xcassets */,
+				F16FE77327E28C280032970C /* logo-brq.png */,
+				F16FE74E27E289A10032970C /* LaunchScreen.storyboard */,
+				F16FE75127E289A10032970C /* Info.plist */,
+			);
+			path = TelaDeLogin;
+			sourceTree = "<group>";
+		};
+		F16FE75927E289A10032970C /* TelaDeLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				F16FE75A27E289A10032970C /* TelaDeLoginTests.swift */,
+			);
+			path = TelaDeLoginTests;
+			sourceTree = "<group>";
+		};
+		F16FE76327E289A10032970C /* TelaDeLoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F16FE76427E289A10032970C /* TelaDeLoginUITests.swift */,
+				F16FE76627E289A10032970C /* TelaDeLoginUITestsLaunchTests.swift */,
+			);
+			path = TelaDeLoginUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F16FE73F27E289A00032970C /* TelaDeLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F16FE76A27E289A10032970C /* Build configuration list for PBXNativeTarget "TelaDeLogin" */;
+			buildPhases = (
+				F16FE73C27E289A00032970C /* Sources */,
+				F16FE73D27E289A00032970C /* Frameworks */,
+				F16FE73E27E289A00032970C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TelaDeLogin;
+			productName = TelaDeLogin;
+			productReference = F16FE74027E289A00032970C /* TelaDeLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F16FE75527E289A10032970C /* TelaDeLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F16FE76D27E289A10032970C /* Build configuration list for PBXNativeTarget "TelaDeLoginTests" */;
+			buildPhases = (
+				F16FE75227E289A10032970C /* Sources */,
+				F16FE75327E289A10032970C /* Frameworks */,
+				F16FE75427E289A10032970C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F16FE75827E289A10032970C /* PBXTargetDependency */,
+			);
+			name = TelaDeLoginTests;
+			productName = TelaDeLoginTests;
+			productReference = F16FE75627E289A10032970C /* TelaDeLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F16FE75F27E289A10032970C /* TelaDeLoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F16FE77027E289A10032970C /* Build configuration list for PBXNativeTarget "TelaDeLoginUITests" */;
+			buildPhases = (
+				F16FE75C27E289A10032970C /* Sources */,
+				F16FE75D27E289A10032970C /* Frameworks */,
+				F16FE75E27E289A10032970C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F16FE76227E289A10032970C /* PBXTargetDependency */,
+			);
+			name = TelaDeLoginUITests;
+			productName = TelaDeLoginUITests;
+			productReference = F16FE76027E289A10032970C /* TelaDeLoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F16FE73827E289A00032970C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					F16FE73F27E289A00032970C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					F16FE75527E289A10032970C = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F16FE73F27E289A00032970C;
+					};
+					F16FE75F27E289A10032970C = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F16FE73F27E289A00032970C;
+					};
+				};
+			};
+			buildConfigurationList = F16FE73B27E289A00032970C /* Build configuration list for PBXProject "TelaDeLogin" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F16FE73727E289A00032970C;
+			productRefGroup = F16FE74127E289A00032970C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F16FE73F27E289A00032970C /* TelaDeLogin */,
+				F16FE75527E289A10032970C /* TelaDeLoginTests */,
+				F16FE75F27E289A10032970C /* TelaDeLoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F16FE73E27E289A00032970C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16FE75027E289A10032970C /* LaunchScreen.storyboard in Resources */,
+				F16FE74D27E289A10032970C /* Assets.xcassets in Resources */,
+				F16FE77427E28C280032970C /* logo-brq.png in Resources */,
+				F16FE74B27E289A00032970C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16FE75427E289A10032970C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16FE75E27E289A10032970C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F16FE73C27E289A00032970C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16FE74827E289A00032970C /* ViewController.swift in Sources */,
+				F16FE74427E289A00032970C /* AppDelegate.swift in Sources */,
+				F16FE74627E289A00032970C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16FE75227E289A10032970C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16FE75B27E289A10032970C /* TelaDeLoginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16FE75C27E289A10032970C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16FE76527E289A10032970C /* TelaDeLoginUITests.swift in Sources */,
+				F16FE76727E289A10032970C /* TelaDeLoginUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F16FE75827E289A10032970C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F16FE73F27E289A00032970C /* TelaDeLogin */;
+			targetProxy = F16FE75727E289A10032970C /* PBXContainerItemProxy */;
+		};
+		F16FE76227E289A10032970C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F16FE73F27E289A00032970C /* TelaDeLogin */;
+			targetProxy = F16FE76127E289A10032970C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F16FE74927E289A00032970C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F16FE74A27E289A00032970C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F16FE74E27E289A10032970C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F16FE74F27E289A10032970C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F16FE76827E289A10032970C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F16FE76927E289A10032970C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F16FE76B27E289A10032970C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TelaDeLogin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.brq.TelaDeLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F16FE76C27E289A10032970C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TelaDeLogin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.brq.TelaDeLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F16FE76E27E289A10032970C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.brq.TelaDeLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TelaDeLogin.app/TelaDeLogin";
+			};
+			name = Debug;
+		};
+		F16FE76F27E289A10032970C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.brq.TelaDeLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TelaDeLogin.app/TelaDeLogin";
+			};
+			name = Release;
+		};
+		F16FE77127E289A10032970C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.brq.TelaDeLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TelaDeLogin;
+			};
+			name = Debug;
+		};
+		F16FE77227E289A10032970C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.brq.TelaDeLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TelaDeLogin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F16FE73B27E289A00032970C /* Build configuration list for PBXProject "TelaDeLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16FE76827E289A10032970C /* Debug */,
+				F16FE76927E289A10032970C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F16FE76A27E289A10032970C /* Build configuration list for PBXNativeTarget "TelaDeLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16FE76B27E289A10032970C /* Debug */,
+				F16FE76C27E289A10032970C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F16FE76D27E289A10032970C /* Build configuration list for PBXNativeTarget "TelaDeLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16FE76E27E289A10032970C /* Debug */,
+				F16FE76F27E289A10032970C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F16FE77027E289A10032970C /* Build configuration list for PBXNativeTarget "TelaDeLoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16FE77127E289A10032970C /* Debug */,
+				F16FE77227E289A10032970C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F16FE73827E289A00032970C /* Project object */;
+}
